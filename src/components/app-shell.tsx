@@ -113,7 +113,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
         <main className="flex-1 px-4 py-6 lg:px-8 lg:py-8">{children}</main>
 
-        <footer className="border-t border-border px-4 py-4 lg:px-8">
+        <footer className="border-t border-border px-4 py-4 lg:hidden">
           <AiDisclaimer />
         </footer>
       </div>

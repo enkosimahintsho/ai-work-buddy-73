@@ -55,7 +55,7 @@ function PlannerPage() {
         title="AI Task Planner"
         description="Drop in everything on your plate. The planner scores impact and urgency, then builds a realistic schedule."
       />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid items-start gap-6 lg:grid-cols-2">
         <Card className="shadow-soft">
           <CardHeader>
             <CardTitle className="text-base">Your workload</CardTitle>

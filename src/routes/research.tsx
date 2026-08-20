@@ -53,7 +53,7 @@ function ResearchPage() {
         title="AI Research Assistant"
         description="Ask a work question and get a structured brief with insights, trade-offs and verification gaps."
       />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid items-start gap-6 lg:grid-cols-2">
         <Card className="shadow-soft">
           <CardHeader>
             <CardTitle className="text-base">Research request</CardTitle>

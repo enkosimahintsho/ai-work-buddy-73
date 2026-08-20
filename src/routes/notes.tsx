@@ -53,7 +53,7 @@ function NotesPage() {
         title="Meeting Notes Summarizer"
         description="Paste raw notes or a transcript. You get a summary, key points, owners, action items and deadlines."
       />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid items-start gap-6 lg:grid-cols-2">
         <Card className="shadow-soft">
           <CardHeader>
             <CardTitle className="text-base">Meeting input</CardTitle>

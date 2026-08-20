@@ -74,7 +74,7 @@ function EmailPage() {
         title="Smart Email Generator"
         description="Describe what you need to say. The assistant adapts wording, structure and tone to your audience."
       />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid items-start gap-6 lg:grid-cols-2">
         <Card className="shadow-soft">
           <CardHeader>
             <CardTitle className="text-base">Email brief</CardTitle>
