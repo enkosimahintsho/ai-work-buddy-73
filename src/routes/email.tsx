@@ -50,9 +50,9 @@ const LENGTHS = ["Short", "Standard", "Detailed"];
 function EmailPage() {
   const [purpose, setPurpose] = useState("");
   const [details, setDetails] = useState("");
-  const [tone, setTone] = useState(TONES[0]);
-  const [audience, setAudience] = useState(AUDIENCES[0]);
-  const [length, setLength] = useState(LENGTHS[1]);
+  const [tone, setTone] = useState<string>("Professional");
+  const [audience, setAudience] = useState<string>("Manager");
+  const [length, setLength] = useState<string>("Standard");
   const { text, error, loading, generate } = useAssistant("email");
 
   function submit() {

@@ -39,7 +39,7 @@ const DEPTHS = ["Quick brief", "Balanced analysis", "Deep dive"];
 
 function ResearchPage() {
   const [topic, setTopic] = useState("");
-  const [depth, setDepth] = useState(DEPTHS[1]);
+  const [depth, setDepth] = useState<string>("Balanced analysis");
   const { text, error, loading, generate } = useAssistant("research");
 
   function submit() {
